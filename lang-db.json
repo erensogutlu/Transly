@@ -1,0 +1,1032 @@
+{
+	"version": 1,
+	"languages": ["tr", "en", "fr", "es", "de"],
+	"lexicon": [
+		{
+			"en": "hello",
+			"tr": "merhaba",
+			"fr": "bonjour",
+			"es": "hola",
+			"de": "hallo"
+		},
+		{
+			"en": "world",
+			"tr": "dünya",
+			"fr": "monde",
+			"es": "mundo",
+			"de": "welt"
+		},
+		{
+			"en": "cat",
+			"tr": "kedi",
+			"fr": "chat",
+			"es": "gato",
+			"de": "katze"
+		},
+		{
+			"en": "dog",
+			"tr": "köpek",
+			"fr": "chien",
+			"es": "perro",
+			"de": "hund"
+		},
+		{
+			"en": "book",
+			"tr": "kitap",
+			"fr": "livre",
+			"es": "libro",
+			"de": "buch"
+		},
+		{
+			"en": "apple",
+			"tr": "elma",
+			"fr": "pomme",
+			"es": "manzana",
+			"de": "apfel"
+		},
+		{
+			"en": "please",
+			"tr": "lütfen",
+			"fr": "s'il vous plaît",
+			"es": "por favor",
+			"de": "bitte"
+		},
+		{
+			"en": "thank you",
+			"tr": "teşekkür ederim",
+			"fr": "merci",
+			"es": "gracias",
+			"de": "danke"
+		},
+		{
+			"en": "good morning",
+			"tr": "günaydın",
+			"fr": "bonjour",
+			"es": "buenos días",
+			"de": "guten morgen"
+		},
+		{
+			"en": "good night",
+			"tr": "iyi geceler",
+			"fr": "bonne nuit",
+			"es": "buenas noches",
+			"de": "gute nacht"
+		},
+		{
+			"en": "welcome",
+			"tr": "hoş geldiniz",
+			"fr": "bienvenue",
+			"es": "bienvenido",
+			"de": "willkommen"
+		},
+		{
+			"en": "see you later",
+			"tr": "görüşürüz",
+			"fr": "à plus tard",
+			"es": "hasta luego",
+			"de": "bis später"
+		},
+		{
+			"en": "sorry",
+			"tr": "özür dilerim",
+			"fr": "désolé",
+			"es": "lo siento",
+			"de": "es tut mir leid"
+		},
+		{
+			"en": "how are you",
+			"tr": "nasılsın",
+			"fr": "comment ça va",
+			"es": "cómo estás",
+			"de": "wie geht es dir"
+		},
+		{
+			"en": "red",
+			"tr": "kırmızı",
+			"fr": "rouge",
+			"es": "rojo",
+			"de": "rot",
+			"pos": "adj"
+		},
+		{
+			"en": "blue",
+			"tr": "mavi",
+			"fr": "bleu",
+			"es": "azul",
+			"de": "blau",
+			"pos": "adj"
+		},
+		{
+			"en": "green",
+			"tr": "yeşil",
+			"fr": "vert",
+			"es": "verde",
+			"de": "grün",
+			"pos": "adj"
+		},
+		{
+			"en": "yellow",
+			"tr": "sarı",
+			"fr": "jaune",
+			"es": "amarillo",
+			"de": "gelb",
+			"pos": "adj"
+		},
+		{
+			"en": "black",
+			"tr": "siyah",
+			"fr": "noir",
+			"es": "negro",
+			"de": "schwarz",
+			"pos": "adj"
+		},
+		{
+			"en": "white",
+			"tr": "beyaz",
+			"fr": "blanc",
+			"es": "blanco",
+			"de": "weiß",
+			"pos": "adj"
+		},
+		{
+			"en": "gray",
+			"tr": "gri",
+			"fr": "gris",
+			"es": "gris",
+			"de": "grau",
+			"pos": "adj"
+		},
+		{
+			"en": "orange",
+			"tr": "turuncu",
+			"fr": "orange",
+			"es": "naranja",
+			"de": "orange",
+			"pos": "adj"
+		},
+		{
+			"en": "purple",
+			"tr": "mor",
+			"fr": "violet",
+			"es": "morado",
+			"de": "violett",
+			"pos": "adj"
+		},
+		{
+			"en": "pink",
+			"tr": "pembe",
+			"fr": "rose",
+			"es": "rosa",
+			"de": "rosa",
+			"pos": "adj"
+		},
+		{
+			"en": "brown",
+			"tr": "kahverengi",
+			"fr": "marron",
+			"es": "marrón",
+			"de": "braun",
+			"pos": "adj"
+		},
+		{
+			"en": "zero",
+			"tr": "sıfır",
+			"fr": "zéro",
+			"es": "cero",
+			"de": "null",
+			"pos": "num"
+		},
+		{
+			"en": "one",
+			"tr": "bir",
+			"fr": "un",
+			"es": "uno",
+			"de": "eins",
+			"pos": "num"
+		},
+		{
+			"en": "two",
+			"tr": "iki",
+			"fr": "deux",
+			"es": "dos",
+			"de": "zwei",
+			"pos": "num"
+		},
+		{
+			"en": "three",
+			"tr": "üç",
+			"fr": "trois",
+			"es": "tres",
+			"de": "drei",
+			"pos": "num"
+		},
+		{
+			"en": "four",
+			"tr": "dört",
+			"fr": "quatre",
+			"es": "cuatro",
+			"de": "vier",
+			"pos": "num"
+		},
+		{
+			"en": "five",
+			"tr": "beş",
+			"fr": "cinq",
+			"es": "cinco",
+			"de": "fünf",
+			"pos": "num"
+		},
+		{
+			"en": "six",
+			"tr": "altı",
+			"fr": "six",
+			"es": "seis",
+			"de": "sechs",
+			"pos": "num"
+		},
+		{
+			"en": "seven",
+			"tr": "yedi",
+			"fr": "sept",
+			"es": "siete",
+			"de": "sieben",
+			"pos": "num"
+		},
+		{
+			"en": "eight",
+			"tr": "sekiz",
+			"fr": "huit",
+			"es": "ocho",
+			"de": "acht",
+			"pos": "num"
+		},
+		{
+			"en": "nine",
+			"tr": "dokuz",
+			"fr": "neuf",
+			"es": "nueve",
+			"de": "neun",
+			"pos": "num"
+		},
+		{
+			"en": "ten",
+			"tr": "on",
+			"fr": "dix",
+			"es": "diez",
+			"de": "zehn",
+			"pos": "num"
+		},
+		{
+			"en": "eleven",
+			"tr": "on bir",
+			"fr": "onze",
+			"es": "once",
+			"de": "elf",
+			"pos": "num"
+		},
+		{
+			"en": "twelve",
+			"tr": "on iki",
+			"fr": "douze",
+			"es": "doce",
+			"de": "zwölf",
+			"pos": "num"
+		},
+		{
+			"en": "thirteen",
+			"tr": "on üç",
+			"fr": "treize",
+			"es": "trece",
+			"de": "dreizehn",
+			"pos": "num"
+		},
+		{
+			"en": "fourteen",
+			"tr": "on dört",
+			"fr": "quatorze",
+			"es": "catorce",
+			"de": "vierzehn",
+			"pos": "num"
+		},
+		{
+			"en": "fifteen",
+			"tr": "on beş",
+			"fr": "quinze",
+			"es": "quince",
+			"de": "fünfzehn",
+			"pos": "num"
+		},
+		{
+			"en": "sixteen",
+			"tr": "on altı",
+			"fr": "seize",
+			"es": "dieciséis",
+			"de": "sechzehn",
+			"pos": "num"
+		},
+		{
+			"en": "seventeen",
+			"tr": "on yedi",
+			"fr": "dix-sept",
+			"es": "diecisiete",
+			"de": "siebzehn",
+			"pos": "num"
+		},
+		{
+			"en": "eighteen",
+			"tr": "on sekiz",
+			"fr": "dix-huit",
+			"es": "dieciocho",
+			"de": "achtzehn",
+			"pos": "num"
+		},
+		{
+			"en": "nineteen",
+			"tr": "on dokuz",
+			"fr": "dix-neuf",
+			"es": "diecinueve",
+			"de": "neunzehn",
+			"pos": "num"
+		},
+		{
+			"en": "twenty",
+			"tr": "yirmi",
+			"fr": "vingt",
+			"es": "veinte",
+			"de": "zwanzig",
+			"pos": "num"
+		},
+		{
+			"en": "mother",
+			"tr": "anne",
+			"fr": "mère",
+			"es": "madre",
+			"de": "mutter",
+			"pos": "noun"
+		},
+		{
+			"en": "father",
+			"tr": "baba",
+			"fr": "père",
+			"es": "padre",
+			"de": "vater",
+			"pos": "noun"
+		},
+		{
+			"en": "brother",
+			"tr": "erkek kardeş",
+			"fr": "frère",
+			"es": "hermano",
+			"de": "bruder",
+			"pos": "noun"
+		},
+		{
+			"en": "sister",
+			"tr": "kız kardeş",
+			"fr": "soeur",
+			"es": "hermana",
+			"de": "schwester",
+			"pos": "noun"
+		},
+		{
+			"en": "son",
+			"tr": "oğul",
+			"fr": "fils",
+			"es": "hijo",
+			"de": "sohn",
+			"pos": "noun"
+		},
+		{
+			"en": "daughter",
+			"tr": "kız evlat",
+			"fr": "fille",
+			"es": "hija",
+			"de": "tochter",
+			"pos": "noun"
+		},
+		{
+			"en": "family",
+			"tr": "aile",
+			"fr": "famille",
+			"es": "familia",
+			"de": "familie",
+			"pos": "noun"
+		},
+		{
+			"en": "monday",
+			"tr": "pazartesi",
+			"fr": "lundi",
+			"es": "lunes",
+			"de": "montag",
+			"pos": "noun"
+		},
+		{
+			"en": "tuesday",
+			"tr": "salı",
+			"fr": "mardi",
+			"es": "martes",
+			"de": "dienstag",
+			"pos": "noun"
+		},
+		{
+			"en": "wednesday",
+			"tr": "çarşamba",
+			"fr": "mercredi",
+			"es": "miércoles",
+			"de": "mittwoch",
+			"pos": "noun"
+		},
+		{
+			"en": "thursday",
+			"tr": "perşembe",
+			"fr": "jeudi",
+			"es": "jueves",
+			"de": "donnerstag",
+			"pos": "noun"
+		},
+		{
+			"en": "friday",
+			"tr": "cuma",
+			"fr": "vendredi",
+			"es": "viernes",
+			"de": "freitag",
+			"pos": "noun"
+		},
+		{
+			"en": "saturday",
+			"tr": "cumartesi",
+			"fr": "samedi",
+			"es": "sábado",
+			"de": "samstag",
+			"pos": "noun"
+		},
+		{
+			"en": "sunday",
+			"tr": "pazar",
+			"fr": "dimanche",
+			"es": "domingo",
+			"de": "sonntag",
+			"pos": "noun"
+		},
+		{
+			"en": "go",
+			"tr": "gitmek",
+			"fr": "aller",
+			"es": "ir",
+			"de": "gehen",
+			"pos": "verb"
+		},
+		{
+			"en": "come",
+			"tr": "gelmek",
+			"fr": "venir",
+			"es": "venir",
+			"de": "kommen",
+			"pos": "verb"
+		},
+		{
+			"en": "eat",
+			"tr": "yemek",
+			"fr": "manger",
+			"es": "comer",
+			"de": "essen",
+			"pos": "verb"
+		},
+		{
+			"en": "drink",
+			"tr": "içmek",
+			"fr": "boire",
+			"es": "beber",
+			"de": "trinken",
+			"pos": "verb"
+		},
+		{
+			"en": "sleep",
+			"tr": "uyumak",
+			"fr": "dormir",
+			"es": "dormir",
+			"de": "schlafen",
+			"pos": "verb"
+		},
+		{
+			"en": "read",
+			"tr": "okumak",
+			"fr": "lire",
+			"es": "leer",
+			"de": "lesen",
+			"pos": "verb"
+		},
+		{
+			"en": "write",
+			"tr": "yazmak",
+			"fr": "écrire",
+			"es": "escribir",
+			"de": "schreiben",
+			"pos": "verb"
+		},
+		{
+			"en": "speak",
+			"tr": "konuşmak",
+			"fr": "parler",
+			"es": "hablar",
+			"de": "sprechen",
+			"pos": "verb"
+		},
+		{
+			"en": "listen",
+			"tr": "dinlemek",
+			"fr": "écouter",
+			"es": "escuchar",
+			"de": "zuhören",
+			"pos": "verb"
+		},
+		{
+			"en": "see",
+			"tr": "görmek",
+			"fr": "voir",
+			"es": "ver",
+			"de": "sehen",
+			"pos": "verb"
+		},
+		{
+			"en": "buy",
+			"tr": "satın almak",
+			"fr": "acheter",
+			"es": "comprar",
+			"de": "kaufen",
+			"pos": "verb"
+		},
+		{
+			"en": "sell",
+			"tr": "satmak",
+			"fr": "vendre",
+			"es": "vender",
+			"de": "verkaufen",
+			"pos": "verb"
+		},
+		{
+			"en": "open",
+			"tr": "açmak",
+			"fr": "ouvrir",
+			"es": "abrir",
+			"de": "öffnen",
+			"pos": "verb"
+		},
+		{
+			"en": "close",
+			"tr": "kapatmak",
+			"fr": "fermer",
+			"es": "cerrar",
+			"de": "schließen",
+			"pos": "verb"
+		},
+		{
+			"en": "house",
+			"tr": "ev",
+			"fr": "maison",
+			"es": "casa",
+			"de": "haus",
+			"pos": "noun"
+		},
+		{
+			"en": "school",
+			"tr": "okul",
+			"fr": "école",
+			"es": "escuela",
+			"de": "schule",
+			"pos": "noun"
+		},
+		{
+			"en": "university",
+			"tr": "üniversite",
+			"fr": "université",
+			"es": "universidad",
+			"de": "universität",
+			"pos": "noun"
+		},
+		{
+			"en": "hospital",
+			"tr": "hastane",
+			"fr": "hôpital",
+			"es": "hospital",
+			"de": "krankenhaus",
+			"pos": "noun"
+		},
+		{
+			"en": "airport",
+			"tr": "havaalanı",
+			"fr": "aéroport",
+			"es": "aeropuerto",
+			"de": "flughafen",
+			"pos": "noun"
+		},
+		{
+			"en": "station",
+			"tr": "istasyon",
+			"fr": "gare",
+			"es": "estación",
+			"de": "bahnhof",
+			"pos": "noun"
+		},
+		{
+			"en": "hotel",
+			"tr": "otel",
+			"fr": "hôtel",
+			"es": "hotel",
+			"de": "hotel",
+			"pos": "noun"
+		},
+		{
+			"en": "restaurant",
+			"tr": "restoran",
+			"fr": "restaurant",
+			"es": "restaurante",
+			"de": "restaurant",
+			"pos": "noun"
+		},
+		{
+			"en": "water",
+			"tr": "su",
+			"fr": "eau",
+			"es": "agua",
+			"de": "wasser",
+			"pos": "noun"
+		},
+		{
+			"en": "bread",
+			"tr": "ekmek",
+			"fr": "pain",
+			"es": "pan",
+			"de": "brot",
+			"pos": "noun"
+		},
+		{
+			"en": "rice",
+			"tr": "pirinç",
+			"fr": "riz",
+			"es": "arroz",
+			"de": "reis",
+			"pos": "noun"
+		},
+		{
+			"en": "meat",
+			"tr": "et",
+			"fr": "viande",
+			"es": "carne",
+			"de": "fleisch",
+			"pos": "noun"
+		},
+		{
+			"en": "fish",
+			"tr": "balık",
+			"fr": "poisson",
+			"es": "pescado",
+			"de": "fisch",
+			"pos": "noun"
+		},
+		{
+			"en": "chicken",
+			"tr": "tavuk",
+			"fr": "poulet",
+			"es": "pollo",
+			"de": "huhn",
+			"pos": "noun"
+		},
+		{
+			"en": "salt",
+			"tr": "tuz",
+			"fr": "sel",
+			"es": "sal",
+			"de": "salz",
+			"pos": "noun"
+		},
+		{
+			"en": "sugar",
+			"tr": "şeker",
+			"fr": "sucre",
+			"es": "azúcar",
+			"de": "zucker",
+			"pos": "noun"
+		},
+		{
+			"en": "pepper",
+			"tr": "biber",
+			"fr": "poivre",
+			"es": "pimienta",
+			"de": "pfeffer",
+			"pos": "noun"
+		},
+		{
+			"en": "soup",
+			"tr": "çorba",
+			"fr": "soupe",
+			"es": "sopa",
+			"de": "suppe",
+			"pos": "noun"
+		},
+		{
+			"en": "salad",
+			"tr": "salata",
+			"fr": "salade",
+			"es": "ensalada",
+			"de": "salat",
+			"pos": "noun"
+		},
+		{
+			"en": "rain",
+			"tr": "yağmur",
+			"fr": "pluie",
+			"es": "lluvia",
+			"de": "regen",
+			"pos": "noun"
+		},
+		{
+			"en": "snow",
+			"tr": "kar",
+			"fr": "neige",
+			"es": "nieve",
+			"de": "schnee",
+			"pos": "noun"
+		},
+		{
+			"en": "wind",
+			"tr": "rüzgar",
+			"fr": "vent",
+			"es": "viento",
+			"de": "wind",
+			"pos": "noun"
+		},
+		{
+			"en": "sunny",
+			"tr": "güneşli",
+			"fr": "ensoleillé",
+			"es": "soleado",
+			"de": "sonnig",
+			"pos": "adj"
+		},
+		{
+			"en": "cloudy",
+			"tr": "bulutlu",
+			"fr": "nuageux",
+			"es": "nublado",
+			"de": "bewölkt",
+			"pos": "adj"
+		},
+		{
+			"en": "cold",
+			"tr": "soğuk",
+			"fr": "froid",
+			"es": "frío",
+			"de": "kalt",
+			"pos": "adj"
+		},
+		{
+			"en": "hot",
+			"tr": "sıcak",
+			"fr": "chaud",
+			"es": "caliente",
+			"de": "heiß",
+			"pos": "adj"
+		},
+		{
+			"en": "computer",
+			"tr": "bilgisayar",
+			"fr": "ordinateur",
+			"es": "ordenador",
+			"de": "computer",
+			"pos": "noun"
+		},
+		{
+			"en": "phone",
+			"tr": "telefon",
+			"fr": "téléphone",
+			"es": "teléfono",
+			"de": "telefon",
+			"pos": "noun"
+		},
+		{
+			"en": "internet",
+			"tr": "internet",
+			"fr": "internet",
+			"es": "internet",
+			"de": "internet",
+			"pos": "noun"
+		},
+		{
+			"en": "password",
+			"tr": "şifre",
+			"fr": "mot de passe",
+			"es": "contraseña",
+			"de": "passwort",
+			"pos": "noun"
+		},
+		{
+			"en": "account",
+			"tr": "hesap",
+			"fr": "compte",
+			"es": "cuenta",
+			"de": "konto",
+			"pos": "noun"
+		},
+		{
+			"en": "update",
+			"tr": "güncelleme",
+			"fr": "mise à jour",
+			"es": "actualización",
+			"de": "aktualisierung",
+			"pos": "noun"
+		},
+		{
+			"en": "error",
+			"tr": "hata",
+			"fr": "erreur",
+			"es": "error",
+			"de": "fehler",
+			"pos": "noun"
+		}
+	],
+	"sentences": [
+		{
+			"tr": "nasılsın?",
+			"en": "how are you?",
+			"fr": "comment ça va ?",
+			"es": "¿cómo estás?",
+			"de": "wie geht's?"
+		},
+		{
+			"tr": "benim adım ahmet.",
+			"en": "my name is Ahmet.",
+			"fr": "je m'appelle Ahmet.",
+			"es": "me llamo Ahmet.",
+			"de": "ich heiße Ahmet."
+		},
+		{
+			"tr": "bu bir kitap.",
+			"en": "this is a book.",
+			"fr": "c'est un livre.",
+			"es": "esto es un libro.",
+			"de": "das ist ein buch."
+		},
+		{
+			"tr": "teşekkür ederim.",
+			"en": "thank you.",
+			"fr": "merci.",
+			"es": "gracias.",
+			"de": "danke."
+		},
+		{
+			"tr": "günaydın!",
+			"en": "good morning!",
+			"fr": "bonjour !",
+			"es": "¡buenos días!",
+			"de": "guten morgen!"
+		},
+		{
+			"tr": "Uçağım rötar yaptı.",
+			"en": "My flight was delayed.",
+			"fr": "Mon vol a été retardé.",
+			"es": "Mi vuelo se retrasó.",
+			"de": "Mein Flug hatte Verspätung."
+		},
+		{
+			"tr": "Biniş kapısı kaç numara?",
+			"en": "What is the gate number?",
+			"fr": "Quel est le numéro de la porte d’embarquement ?",
+			"es": "¿Cuál es el número de la puerta de embarque?",
+			"de": "Wie lautet die Gate-Nummer?"
+		},
+		{
+			"tr": "Bagajım kayboldu.",
+			"en": "My luggage is lost.",
+			"fr": "Mes bagages sont perdus.",
+			"es": "Mi equipaje se ha perdido.",
+			"de": "Mein Gepäck ist verloren gegangen."
+		},
+		{
+			"tr": "Pasaport kontrolü nerede?",
+			"en": "Where is the passport control?",
+			"fr": "Où est le contrôle des passeports ?",
+			"es": "¿Dónde está el control de pasaportes?",
+			"de": "Wo ist die Passkontrolle?"
+		},
+		{
+			"tr": "Aktarma için ne kadar vaktim var?",
+			"en": "How much time do I have for the transfer?",
+			"fr": "Combien de temps ai-je pour la correspondance ?",
+			"es": "¿Cuánto tiempo tengo para el transbordo?",
+			"de": "Wie viel Zeit habe ich für den Anschluss?"
+		},
+		{
+			"tr": "Bir kahve lütfen.",
+			"en": "A coffee, please.",
+			"fr": "Un café, s’il vous plaît.",
+			"es": "Un café, por favor.",
+			"de": "Einen Kaffee, bitte."
+		},
+		{
+			"tr": "Vejetaryen seçenek var mı?",
+			"en": "Do you have vegetarian options?",
+			"fr": "Avez-vous des options végétariennes ?",
+			"es": "¿Tiene opciones vegetarianas?",
+			"de": "Haben Sie vegetarische Optionen?"
+		},
+		{
+			"tr": "Hesabı alabilir miyim?",
+			"en": "Can I have the bill, please?",
+			"fr": "L’addition, s’il vous plaît.",
+			"es": "La cuenta, por favor.",
+			"de": "Die Rechnung, bitte."
+		},
+		{
+			"tr": "Menüyü getirir misiniz?",
+			"en": "Could you bring the menu?",
+			"fr": "Pouvez-vous apporter le menu ?",
+			"es": "¿Podría traer el menú?",
+			"de": "Könnten Sie die Speisekarte bringen?"
+		},
+		{
+			"tr": "Müzeye nasıl gidebilirim?",
+			"en": "How can I get to the museum?",
+			"fr": "Comment puis-je aller au musée ?",
+			"es": "¿Cómo llego al museo?",
+			"de": "Wie komme ich zum Museum?"
+		},
+		{
+			"tr": "En yakın ATM nerede?",
+			"en": "Where is the nearest ATM?",
+			"fr": "Où est le distributeur le plus proche ?",
+			"es": "¿Dónde está el cajero automático más cercano?",
+			"de": "Wo ist der nächste Geldautomat?"
+		},
+		{
+			"tr": "Bugün çok meşgulüm.",
+			"en": "I'm very busy today.",
+			"fr": "Je suis très occupé aujourd’hui.",
+			"es": "Estoy muy ocupado hoy.",
+			"de": "Ich bin heute sehr beschäftigt."
+		},
+		{
+			"tr": "Yarın sabah erkenden kalkmam gerekiyor.",
+			"en": "I have to wake up early tomorrow morning.",
+			"fr": "Je dois me lever tôt demain matin.",
+			"es": "Tengo que levantarme temprano mañana por la mañana.",
+			"de": "Ich muss morgen früh aufstehen."
+		},
+		{
+			"tr": "Lütfen kapıyı kapatır mısın?",
+			"en": "Could you please close the door?",
+			"fr": "Peux-tu fermer la porte, s’il te plaît ?",
+			"es": "¿Podrías cerrar la puerta, por favor?",
+			"de": "Kannst du bitte die Tür schließen?"
+		},
+		{
+			"tr": "Yardımın için teşekkür ederim.",
+			"en": "Thank you for your help.",
+			"fr": "Merci pour ton aide.",
+			"es": "Gracias por tu ayuda.",
+			"de": "Danke für deine Hilfe."
+		},
+		{
+			"tr": "Üzgünüm, geç kaldım.",
+			"en": "I'm sorry, I'm late.",
+			"fr": "Désolé, je suis en retard.",
+			"es": "Lo siento, llego tarde.",
+			"de": "Es tut mir leid, ich bin zu spät."
+		},
+		{
+			"tr": "Şifremi unuttum.",
+			"en": "I forgot my password.",
+			"fr": "J’ai oublié mon mot de passe.",
+			"es": "Olvidé mi contraseña.",
+			"de": "Ich habe mein Passwort vergessen."
+		},
+		{
+			"tr": "Güncellemeden sonra uygulama açılmıyor.",
+			"en": "The app doesn't open after the update.",
+			"fr": "L’application ne s’ouvre pas après la mise à jour.",
+			"es": "La aplicación no se abre después de la actualización.",
+			"de": "Die App öffnet sich nach dem Update nicht."
+		},
+		{
+			"tr": "Bu dosyayı yükleyemiyorum.",
+			"en": "I can't upload this file.",
+			"fr": "Je ne peux pas téléverser ce fichier.",
+			"es": "No puedo subir este archivo.",
+			"de": "Ich kann diese Datei nicht hochladen."
+		},
+		{
+			"tr": "Ateşim var ve kendimi iyi hissetmiyorum.",
+			"en": "I have a fever and I don't feel well.",
+			"fr": "J’ai de la fièvre et je ne me sens pas bien.",
+			"es": "Tengo fiebre y no me siento bien.",
+			"de": "Ich habe Fieber und fühle mich nicht gut."
+		},
+		{
+			"tr": "Randevu almak istiyorum.",
+			"en": "I want to make an appointment.",
+			"fr": "Je veux prendre un rendez-vous.",
+			"es": "Quiero pedir una cita.",
+			"de": "Ich möchte einen Termin vereinbaren."
+		}
+	]
+}

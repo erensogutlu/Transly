@@ -1,0 +1,417 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	background-attachment: fixed;
+	color: #202124;
+	min-height: 100vh;
+	position: relative;
+}
+
+body::before {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url('data:image/svg+xml,<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="%23ffffff" fill-opacity="0.05"><circle cx="30" cy="30" r="1"/></g></svg>');
+	pointer-events: none;
+	z-index: -1;
+}
+
+.ustKisim {
+	background: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(20px);
+	padding: 24px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	box-shadow: 0 4px 32px rgba(0, 0, 0, 0.1);
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
+.logo {
+	font-size: 32px;
+	font-weight: 700;
+	text-align: center;
+	background: linear-gradient(135deg, #ffffff, rgba(255, 255, 255, 0.8));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	letter-spacing: -0.5px;
+}
+
+.anaKonteyner {
+	max-width: 1200px;
+	margin: 24px auto;
+	padding: 0 24px;
+}
+
+.ceviriBolumu {
+	background: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(30px);
+	border-radius: 24px;
+	box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15),
+		inset 0 1px 0 rgba(255, 255, 255, 0.2);
+	overflow: hidden;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+	position: relative;
+	-webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+	-moz-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+	-ms-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+	-o-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ceviriBolumu::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 1px;
+	background: linear-gradient(
+		90deg,
+		transparent,
+		rgba(255, 255, 255, 0.3),
+		transparent
+	);
+}
+
+.ceviriBolumu:hover {
+	box-shadow: 0 24px 80px rgba(0, 0, 0, 0.2),
+		inset 0 1px 0 rgba(255, 255, 255, 0.3);
+	transform: translateY(-4px);
+}
+
+.dilSecimi {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 28px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+	gap: 24px;
+	background: rgba(255, 255, 255, 0.05);
+}
+
+.dilButonu {
+	background: rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 16px;
+	padding: 14px 24px;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 0.9);
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	backdrop-filter: blur(20px);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	outline: none;
+}
+
+.dilButonu:hover {
+	background: rgba(255, 255, 255, 0.3);
+	border-color: rgba(255, 255, 255, 0.4);
+	color: #fff;
+	transform: translateY(-2px);
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.dilButonu.aktif,
+.dilButonu:focus {
+	background: rgba(255, 255, 255, 0.9);
+	color: #667eea;
+	border-color: rgba(255, 255, 255, 0.5);
+	box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2);
+	font-weight: 600;
+}
+
+.degistirButonu {
+	background: rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	cursor: pointer;
+	padding: 14px;
+	border-radius: 50%;
+	transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+	font-size: 20px;
+	backdrop-filter: blur(20px);
+	width: 52px;
+	height: 52px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.degistirButonu:hover {
+	background: rgba(255, 255, 255, 0.3);
+	transform: rotate(180deg) scale(1.15);
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.degistirButonu:active {
+	transform: rotate(180deg) scale(1.05);
+}
+
+.metinAlani {
+	display: flex;
+	min-height: 200px;
+}
+
+.girisAlani,
+.cikisAlani {
+	flex: 1;
+	padding: 36px;
+	position: relative;
+	min-width: 0;
+}
+
+.girisAlani {
+	border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.metinKutusu {
+	width: 100%;
+	height: 180px;
+	border: none;
+	outline: none;
+	font-size: 19px;
+	line-height: 1.7;
+	resize: none;
+	font-family: inherit;
+	background: transparent;
+	color: rgba(255, 255, 255, 0.95);
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	font-weight: 400;
+	letter-spacing: 0.2px;
+	white-space: pre-wrap;
+	overflow-wrap: anywhere;
+	word-break: break-word;
+	padding-right: 67px;
+	padding-bottom: 34px;
+	overflow-x: hidden;
+}
+.metinKutusu::placeholder {
+	color: rgba(255, 255, 255, 0.5);
+	font-weight: 300;
+}
+
+.metinKutusu:focus {
+	color: #fff;
+	transform: scale(1.01);
+}
+
+.cikisMetni {
+	width: 100%;
+	height: 180px;
+	font-size: 19px;
+	line-height: 1.7;
+	color: rgba(255, 255, 255, 0.95);
+	padding: 20px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	backdrop-filter: blur(20px);
+	font-weight: 400;
+	letter-spacing: 0.2px;
+	box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.1);
+	display: block;
+	white-space: pre-wrap;
+	overflow-wrap: anywhere;
+	word-break: break-word;
+	text-align: left;
+	white-space: pre-wrap;
+	overflow-wrap: anywhere;
+	word-break: break-word;
+	overflow-x: hidden;
+}
+
+.cikisMetni:empty::before {
+	content: "Çeviri burada görünecek...";
+	color: rgba(255, 255, 255, 0.5);
+	font-weight: 300;
+}
+
+.karakterSayisi {
+	position: absolute;
+	bottom: 5px;
+	right: 20px;
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.7);
+	background: rgba(255, 255, 255, 0.15);
+	padding: 6px 12px;
+	border-radius: 12px;
+	backdrop-filter: blur(20px);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	font-weight: 500;
+}
+
+.temizleButonu {
+	position: absolute;
+	top: 36px;
+	right: 36px;
+	background: rgba(255, 255, 255, 0.15);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	cursor: pointer;
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+	border-radius: 50%;
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	backdrop-filter: blur(20px);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.temizleButonu:hover {
+	background: rgba(244, 67, 54, 0.2);
+	color: #ff6b6b;
+	border-color: rgba(244, 67, 54, 0.3);
+	transform: scale(1.1);
+	box-shadow: 0 6px 16px rgba(244, 67, 54, 0.2);
+}
+
+.temizleButonu:active {
+	transform: scale(1.05);
+}
+
+#metniTemizleBtn button {
+	margin-right: 15px;
+}
+
+.altBilgi {
+	text-align: center;
+	padding: 48px;
+	margin-top: 20px;
+}
+
+.altBilgi a {
+	text-decoration: none;
+	letter-spacing: 0.5px;
+	font-size: 18px;
+	font-weight: 300;
+	color: rgba(255, 255, 255, 0.582);
+	transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.altBilgi a:hover {
+	color: rgba(255, 255, 255, 0.308);
+}
+
+.cikisMetni::-webkit-scrollbar {
+	width: 8px;
+}
+
+.cikisMetni::-webkit-scrollbar-track {
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 4px;
+}
+
+.cikisMetni::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 4px;
+}
+
+.cikisMetni::-webkit-scrollbar-thumb:hover {
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.girisAlani textarea::-webkit-scrollbar {
+	width: 8px;
+}
+
+.girisAlani textarea::-webkit-scrollbar-track {
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 4px;
+}
+
+.girisAlani textarea::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 4px;
+}
+
+.girisAlani textarea::-webkit-scrollbar-thumb:hover {
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.metinKutusu:focus + .temizleButonu {
+	opacity: 1;
+	transform: scale(1);
+}
+
+@media (max-width: 768px) {
+	.metinAlani {
+		flex-direction: column;
+	}
+
+	.metinKutusu {
+		padding-right: 68px;
+		padding-bottom: 36px;
+	}
+
+	.girisAlani {
+		border-right: none;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+		padding: 24px;
+	}
+
+	.cikisAlani {
+		padding: 24px;
+	}
+
+	.dilSecimi {
+		flex-wrap: wrap;
+		gap: 16px;
+		padding: 20px;
+	}
+
+	.dilButonu {
+		font-size: 14px;
+	}
+
+	.ceviriBolumu:hover {
+		transform: none;
+	}
+
+	.ustKisim {
+		padding: 16px 20px;
+	}
+
+	.logo {
+		font-size: 24px;
+	}
+
+	.degistirButonu {
+		width: 44px;
+		height: 44px;
+		font-size: 18px;
+	}
+
+	.metinKutusu,
+	.cikisMetni {
+		height: 140px;
+		font-size: 16px;
+	}
+
+	.anaKonteyner {
+		padding: 0 16px;
+		margin: 16px auto;
+	}
+}
+
+@media (max-width: 480px) {
+	.dilButonu {
+		font-size: 10px;
+	}
+}

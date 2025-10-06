@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Transly - Çeviri</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" href="icon.svg" />
+	</head>
+	<body>
+		<div class="ustKisim">
+			<div class="logo">Transly</div>
+		</div>
+
+		<div class="anaKonteyner">
+			<div class="ceviriBolumu">
+				<div class="dilSecimi">
+					<select class="dilButonu" id="kaynak-dil">
+						<option value="tr">Türkçe</option>
+						<option value="en">İngilizce</option>
+						<option value="fr">Fransızca</option>
+						<option value="es">İspanyolca</option>
+						<option value="de">Almanca</option>
+					</select>
+
+					<button class="degistirButonu" onclick="dilleriDegistir()">⇄</button>
+
+					<select class="dilButonu" id="hedef-dil">
+						<option value="en">İngilizce</option>
+						<option value="tr">Türkçe</option>
+						<option value="fr">Fransızca</option>
+						<option value="es">İspanyolca</option>
+						<option value="de">Almanca</option>
+					</select>
+				</div>
+
+				<div class="metinAlani">
+					<div class="girisAlani">
+						<textarea
+							class="metinKutusu"
+							id="giris-metni"
+							placeholder="Çevrilecek metni yazın..."
+							oninput="metniCevir()"
+							onclick="satirBasinaGel(this, event)"
+							onfocus="satirBasinaGel(this)"
+							maxlength="5000"
+							wrap="soft"
+						>
+						</textarea>
+						<div id="metniTemizleBtn">
+							<button class="temizleButonu" onclick="metniTemizle()">×</button>
+						</div>
+						<div class="karakterSayisi" id="karakter-sayisi">0 / 5000</div>
+					</div>
+
+					<div class="cikisAlani">
+						<div class="cikisMetni" id="cikis-metni"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="altBilgi">
+			<p>
+				<a href="https://github.com/erensogutlu" target="_blank"
+					>GitHub - erensogutlu</a
+				>
+			</p>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
